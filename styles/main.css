@@ -1,0 +1,7 @@
+content .thumbnail img {
+    height: 200px;
+}
+
+footer {
+    border-top: 1px dashed lightslategray;
+}
