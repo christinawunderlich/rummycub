@@ -1,3 +1,7 @@
+body {
+    font-size: 12pt;
+}
+
 content .thumbnail img {
     height: 200px;
 }
@@ -11,6 +15,17 @@ content .thumbnail img {
     margin-left:10px;
 }
 
+li {
+    font-size:16pt;
+}
+
+li h4 {
+    font-size:16pt;
+}
+
+li span {
+   font-size: 12pt; 
+}
 
 footer {
     border-top: 1px dashed lightslategray;
