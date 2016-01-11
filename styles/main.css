@@ -12,10 +12,19 @@ content .thumbnail img {
 }
 
 .rules .container {
-    margin-left:10px;
+    margin-left:5px;
 }
 
+ol {
+    counter-reset: item;
+}
+
+li:before {
+    content: counters(item, ".")".";
+    counter-increment: item;
+}
 li {
+    display: block; 
     font-size:16pt;
 }
 
@@ -28,5 +37,5 @@ li span {
 }
 
 footer {
-    border-top: 1px dashed lightslategray;
+    border-top: 1px solid lightslategray;
 }
